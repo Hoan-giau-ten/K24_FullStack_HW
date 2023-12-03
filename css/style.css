@@ -1,8 +1,13 @@
+h1, h2 {
+    margin-left: 1rem;
+}
+
 .row {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, auto);
     justify-content: center;
     margin: 5rem 0;
+    column-gap: 2rem;
 }
 
 .column {
